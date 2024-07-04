@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">CheckList Gestran Teste</h1>
+    <p>Selecione uma das opções:</p>          
+    <p><a class="btn btn-primary" asp-page="/Usuarios/Index"> Usuarios</a></p>        
+    <p><a class="btn btn-primary" asp-page="/ItensInspecao/Index">Itens de Inspeção</a></p>        
+    <p><a class="btn btn-primary" asp-page="/Veiculos/Index">Veículos</a></p>
+    <p><a class="btn btn-primary" asp-page="/Checklists/Index">Checklists</a></p>    
+
+</div>
